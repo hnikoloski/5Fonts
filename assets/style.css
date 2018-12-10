@@ -1,0 +1,101 @@
+html {
+    background-image: url(imgs/background.jpg)
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 300%;
+}
+
+
+/* fonts below */
+
+.bungee {
+    font-family: 'Bungee', cursive;
+}
+
+.dancingscript {
+    font-family: 'Dancing Script', cursive;
+}
+
+.dokdo {
+    font-family: 'Dokdo', cursive;
+}
+
+.unlock {
+    font-family: 'Unlock', cursive;
+}
+
+.marker {
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+/* fonts end */
+
+.joke {
+    padding-top: 2%;
+    text-align: center;
+}
+
+.question {
+    position: relative;
+    color: antiquewhite;
+    margin: 250px;
+    font-size: 25px;
+}
+
+.reveal {
+    background-color: rgba(0, 0, 0, 0.24);
+    border-radius: 20%;
+    font-size: 200%;
+    margin-top: 20px;
+    border-color: rgb(255, 255, 255);
+    color: white;
+    width: 170px;
+    height: 70px;
+}
+
+.reveal:hover {
+    background-color: black;
+    border-radius: 20%;
+    font-size: 200%;
+    margin-top: 20px;
+    border-color: white;
+    color: white;
+    width: 170px;
+    height: 70px;
+}
+
+.punchline {
+    position: relative;
+}
+
+.getin {
+    color: white;
+    font-size: 250%;
+    margin-left: 38%;
+    line-height: 35px;
+    margin-top: 9%;
+}
+
+.batman {
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+
+.s1 {
+    text-decoration: underline;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.s2 {
+    text-decoration: underline;
+    font-family: 'Dokdo', cursive;
+    font-size: 50px;
+    color: white;
+}
