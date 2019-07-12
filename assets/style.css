@@ -1,11 +1,43 @@
-html {
-    background-image: url(imgs/background.jpg)
+body {
+    background-image: url(imgs/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff!important;
 }
 
 h1 {
     font-family: 'Permanent Marker', cursive;
     text-align: center;
     font-size: 300%;
+}
+
+.reveal {
+    display: none;
+}
+
+.batman {
+    max-width: 400px;
+    min-width: 400px;
+}
+
+.resetBtn,
+.what {
+    background: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-color: #fff;
+}
+
+.resetBtn:hover,
+.what:hover {
+    background: #fff;
+    color: #333;
+}
+
+.answer h2 {
+    font-size: 3rem;
 }
 
 
@@ -33,69 +65,3 @@ h1 {
 
 
 /* fonts end */
-
-.joke {
-    padding-top: 2%;
-    text-align: center;
-}
-
-.question {
-    position: relative;
-    color: antiquewhite;
-    margin: 250px;
-    font-size: 25px;
-}
-
-.reveal {
-    background-color: rgba(0, 0, 0, 0.24);
-    border-radius: 20%;
-    font-size: 200%;
-    margin-top: 20px;
-    border-color: rgb(255, 255, 255);
-    color: white;
-    width: 170px;
-    height: 70px;
-}
-
-.reveal:hover {
-    background-color: black;
-    border-radius: 20%;
-    font-size: 200%;
-    margin-top: 20px;
-    border-color: white;
-    color: white;
-    width: 170px;
-    height: 70px;
-}
-
-.punchline {
-    position: relative;
-}
-
-.getin {
-    color: white;
-    font-size: 250%;
-    margin-left: 38%;
-    line-height: 35px;
-    margin-top: 9%;
-}
-
-.batman {
-    position: absolute;
-    left: 20%;
-    top: 10%;
-}
-
-.s1 {
-    text-decoration: underline;
-    font-family: 'Dancing Script', cursive;
-    font-size: 50px;
-    color: white;
-}
-
-.s2 {
-    text-decoration: underline;
-    font-family: 'Dokdo', cursive;
-    font-size: 50px;
-    color: white;
-}
